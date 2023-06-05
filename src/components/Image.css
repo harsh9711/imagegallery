@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+.Image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Image-wrapper {
+  width: 80%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Image-box {
+  height: 400px;
+  width: 300px;
+  border: 1.5px solid #e5e5e5;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.Image-img {
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+  object-position: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+
+.Image-info {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Image-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Image-profile-img {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.Image-username {
+    width: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.Image-username h3 {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Image-insta {
+  max-width: 20ch;
+  display: block;
+overflow: hidden;
+  text-transform: lowercase;
+  font-size: 15px;
+  font-family: "Caveat", cursive;
+  font-weight: 300;
+}
+
+.Image-like {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.Image-like span{
+  margin-left: 5px;
+}
